@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class WebController {
 
-    @Value("${server.port}")
+
     private int port;
 
     @GetMapping("/")
     @ResponseBody
     public String main() {
-        return "<a href=\"https://infoq.com2\">infoq.com1004, port : </a>"+port;
+        return "<a href=\"https://infoq.com2\">infoq.com1004, portgood : </a>";
     }
 }
