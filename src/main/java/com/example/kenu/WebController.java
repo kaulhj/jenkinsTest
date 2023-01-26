@@ -15,6 +15,6 @@ public class WebController {
     @GetMapping("/")
     @ResponseBody
     public String main() {
-        return "<a href=\"https://infoq.com2\">infoq.com1004, portgood : change good</a>";
+        return "<a href=\"https://infoq.com2\">infoq.com1004, portgood : change good 종환</a>";
     }
 }
